@@ -1,5 +1,5 @@
 #!/bin/sh
 autoreconf -f -i
 make distclean
-./configure --disable-silent-rules --host arm-linux-gnueabihf --target arm-linux-gnueabihf
+./configure --prefix "/mnt/SDCARD/.tmp_update/" --disable-silent-rules --host arm-linux-gnueabihf --target arm-linux-gnueabihf
 make -j4
