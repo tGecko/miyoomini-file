@@ -8,6 +8,7 @@
 Makefile
 Makefile.in
 
+/output/
 /aclocal.m4
 /autom4te.cache
 /compile
